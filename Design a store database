@@ -1,0 +1,11 @@
+Create Table Electronics( id INTEGER PRIMARY KEY, Name TEXT, Price INTEGER, Quantity INTEGER, Ratings INTEGER);
+
+insert INTO Electronics VALUES (1, "Mobile", 50000, 20, 4);
+insert INTO Electronics VALUES (2, "Laptop", 100000, 15, 4.5);
+insert INTO Electronics VALUES (3, "TV", 150000, 18, 3.5);
+insert INTO Electronics VALUES (4, "Micro Oven", 30000, 10, 5);
+insert INTO Electronics VALUES (5, "Washing Machine", 50000, 12, 4.5);
+
+select * from Electronics ORDER BY Ratings;
+select Name,Price from Electronics GROUP BY Quantity;
+select Max(Price) from Electronics;
