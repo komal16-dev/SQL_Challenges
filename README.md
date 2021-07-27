@@ -1,4 +1,4 @@
-# SQL_KhanAcademy_Challenges
+# SQL_Challenges
 
 This GitHub repository contains the questions and solutions to Intro To SQL: Querying and managing data. The coursework included:
 
